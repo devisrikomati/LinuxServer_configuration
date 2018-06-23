@@ -16,7 +16,8 @@
         12345
 #### For update the latest versions:
        sudo apt-get update
-       sudo apt-get upgrade    
+       sudo apt-get upgrade
+       sudo apt-get dist-upgrade
 #### grader key       
        here update key
        
@@ -97,7 +98,7 @@
             sudo nano /etc/apache2/sites-available/FlaskApp.conf
        Add the following code into the .conf file:
               <VirtualHost *:80>
-              ServerName mywebsite.com
+              ServerName mywebsite.com ----(static ip)
               ServerAdmin admin@mywebsite.com
               WSGIScriptAlias / /var/www/FlaskApp/flaskapp.wsgi
               <Directory /var/www/FlaskApp/FlaskApp/>
@@ -147,6 +148,7 @@
     xip.io is a free DNS which will be the same as using IP address
 ## Final Step:
     sudo service apache2 restart
+    open browser and type http://ip.xip.io(chage ip address) . open my project 
 ## refrences:
     -- https://www.digitalocean.com
     -- https://stackoverflow.com/   
