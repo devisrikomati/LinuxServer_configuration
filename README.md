@@ -74,7 +74,7 @@
     Install git:
         sudo apt-get install git
     get the app you have to deploy from your github account:
-        sudo git clone https://github.com/devisrikomati/Item__Catalog.git
+        sudo git clone 
     Change the main file name to __init__.py:
         sudo mv mainproject.py __init__.py
     open init file and add the json file:
