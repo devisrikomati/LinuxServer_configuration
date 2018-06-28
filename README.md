@@ -13,7 +13,7 @@
      Save the private key provided in your machine and run the command as follows:
      -- ssh -i path/to/privatekey -p 2200 grader@ipaddress
 #### grader password
-        12345
+        uix
 #### For update the latest versions:
        sudo apt-get update
        sudo apt-get upgrade
