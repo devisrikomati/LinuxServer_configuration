@@ -2,24 +2,50 @@
 ##This project is about the configuration of the LinuxServers.
 #### Packages I have used for this project
       python
-      putty
       apache2 software
       Flask etc;
 #### Server details
-      Server Ip Address:
-      UrlSite:
+      Server Ip Address:13.232.131.70
+      UrlSite:http://13.232.131.70.xip.io
 #### How to connect grader
      Download the file that is having our private key when we created our instance in the lightsail amazon.com
      Save the private key provided in your machine and run the command as follows:
      -- ssh -i path/to/privatekey -p 2200 grader@ipaddress
 #### grader password
-        uix
+        unix
 #### For update the latest versions:
        sudo apt-get update
        sudo apt-get upgrade
        sudo apt-get dist-upgrade
-#### grader key       
-       here update key
+#### grader key 
+            -----BEGIN RSA PRIVATE KEY-----
+      MIIEpQIBAAKCAQEA5O4ifMUHIeHhfMtSdwag5U2/OXPowwpTNpBpwR9aioQreX2S
+      id28UcJYVvjF4CNKS32eNRxb8DHb6Ky/17U0u9FRqJwWP8PDbcXOp5ysZNWIqx7t
+      KuQMparJj/TCuVzgMddH8KuBBjStCJBT1r0/glFn8wIyWkmPQUMN51oSugIqck3q
+      o5uz3ZqWagINx1iEM35wBc/GptbOuEYTfe+k5YegGbsNFQogLssJb9sT7yZNROQT
+      ULrywUaGdf9Wi+BMYOub7HxCtqikFkVSEUmdV0n4UFJ/w0DfWPKw3V9ZKM+ZmvB0
+      M3pfLsf3d9G/3rBm3cT8Qe+l/dUNGV7Y/DOqewIDAQABAoIBAQCdlhMlYhdjynKG
+      jgtpJaXx0o/0g4ZRZDUd1VEHAIc53Ht0uOz7fCha+3YGAF9tx70ntAQIuUnMUPX4
+      95ljajgvpYoZj8B9Ckvnr4dut5mwG5FlgfduU+ckzyjKsIiuQnGNvYym7df2JqKJ
+      x5f+tO0XzuPIUtXIcuRq3zad79H+OZvJllmVyWHPiEec8NR9y82UOp/DQnvWDdyM
+      I1Nqkr6TayTgtbKVofzvWPgmfUwphzpchtrv9ZZeL1aDnpCuqvIdBcG+AJA7arpK
+      GpYV9HyJh3fr09Le5DVCMbdQDs6jPwXa85X6PVO7Hk9LetEQpZvcTz5io4pOc2Q1
+      Gpl6YNgpAoGBAP2eXdOHpMPFtMUSO6bJCs1ZIBdeKBmQYri6f9xPsWE7J1CQYUWg
+      VsWrqDw7nocrXymCoGH9tK44UPiGXn/fFY8pZgyjwpPF9C02vpUEYocJtuQ/1638
+      +i8apwwu0H0i6/cgQrztHTcXORAs+L2vBGFE5cYZjv6sV3JH0lTZMgy3AoGBAOcU
+      bHXaLEsJHWILf+pIsNTAo3mNK4gQNRgQA2bsBO6+XptLNctowgZjtdh+dVC0ksTh
+      WU93Wb1jms6sLdcdw8iD6KVap8uqVvKtfmVLcf/e/5vlg0mnI5E3wikyg/LolOSP
+      fw83OlfGA29/Ctn6kJrUS9CFGgEwCOEebKCG71RdAoGBAPFS98SHlWgTf+blao1R
+      T04GOFsD5PQuR0GvdGqWChqSxt4KBATUhLyikfp+YGIOCwbcnO+hEYOVYraYZOMX
+      ytPmeIweZs9l1OoQ5Ve2TGph+/1EIl4UEZswqTMWeJwZ1p3XvKk4lkwNdObHZAhZ
+      uLk1bc4KE96Q7sR3QtQpt04RAoGAARGAGt9iWwp0v1JMShoB70ngt5wmel+Qz0ar
+      rVsj/rKUn2Uun30hgIQPgCu9gR0EnLJqBksH+C8wtQnowFjb4d5yQel0YyWrdz3E
+      GtXJdiRizCa4f6utJ2u5kxUvtPzMS246aSiZNXSt6WMN+soExyJ6I0GqSB0fvWK1
+      n9xf2OUCgYEA5LaV101bsZa1ta4M97VVuAm+mH+4r3RS8CDtxelETRG6zfwGT/V9
+      g64HxExlxln5R2ISEH4PvyRT9qslQ0xtfIOfpi0M5vdkJxf4oG5CAwMeQGiv88a1
+      NH/smDk8W3u8cjPaR/W3Wzlo2PbtC1RK0EN5Nl4W36r6tJDFtBoxdTc=
+      -----END RSA PRIVATE KEY-----
+       
        
 #### To create grader user:
       we have to creater a new user called grader
