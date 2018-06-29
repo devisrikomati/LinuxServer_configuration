@@ -6,7 +6,7 @@
       Flask etc;
 #### Server details
       Server Ip Address:13.232.131.70
-      UrlSite http://13.232.131.70.xip.io
+      UrlSite: http://13.232.131.70.xip.io
 #### How to connect grader
      Download the file that is having our private key when we created our instance in the lightsail amazon.com
      Save the private key provided in your machine and run the command as follows:
@@ -100,7 +100,7 @@
     Install git:
         sudo apt-get install git
     get the app you have to deploy from your github account:
-        sudo git clone 
+        sudo git clone  https://github.com/devisrikomati/NeverGiveUp.git
     Change the main file name to __init__.py:
         sudo mv mainproject.py __init__.py
     open init file and add the json file:
