@@ -6,7 +6,7 @@
       Flask etc;
 #### Server details
       Server Ip Address:13.232.131.70
-      UrlSite:http://13.232.131.70.xip.io
+      UrlSite http://13.232.131.70.xip.io
 #### How to connect grader
      Download the file that is having our private key when we created our instance in the lightsail amazon.com
      Save the private key provided in your machine and run the command as follows:
